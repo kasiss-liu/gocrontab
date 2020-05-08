@@ -1,3 +1,3 @@
-module github.com/kasiss-liu/crontab
+module github.com/kasiss-liu/gocrontab
 
 go 1.13
