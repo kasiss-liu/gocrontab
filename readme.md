@@ -9,6 +9,10 @@
     > 表达式长度为7位为秒级表达式，验证时会匹配当前秒数
 
 - Usage
+```shell
+go get -u github.com/kasiss-liu/gocrontab
+```
+
 ```go
 # 单个对象构建
 c := NewCron().SetMinute("*/2").SetHour("*").SetDayOfMonth("?").SetMonth("*").SetDayOfWeek("*").SetYear("*")
